@@ -18,8 +18,9 @@ This is a simple example of a client-server application using Docker Compose, wi
    ```
 
 2. Build and start the Docker containers: 
-
-   ### docker compose up
+   ```bash
+    docker compose up
+    ```
 
    This command will download the required Docker images, build the containers, and start the services.
 
@@ -33,7 +34,9 @@ This is a simple example of a client-server application using Docker Compose, wi
 ## Stopping the Application
 To stop the application and shut down the Docker containers, use:
 
-### docker-compose down
+```bash
+   docker compose down
+   ```
 
 
 
